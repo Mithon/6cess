@@ -1,0 +1,13 @@
+{
+  "name": "6cess",
+  "version": "0.0.1",
+  "description": "Info des project 2",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "Hunter Caron",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.13.4"
+  }
+}
