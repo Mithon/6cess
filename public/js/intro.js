@@ -168,7 +168,7 @@ function render() {
                 <p>Rating: ${active.rating} // Review Count: ${active.review_count}</p>`;
 
 
-                if (prev != null) {
+                if (prev != null && prevs.length > 2) {
                     var geometry = new THREE.Geometry();
                     geometry.vertices.push(new THREE.Vector3(prev.position.x, prev.position.y, prev.position.z));
                     geometry.vertices.push(new THREE.Vector3(INTERSECTED.position.x, INTERSECTED.position.y, INTERSECTED.position.z));
