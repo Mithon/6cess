@@ -1,0 +1,168 @@
+@font-face {
+    font-family: 'Dodeca';
+    src:    url("dodeca_bold_basic-webfont.woff2") format('woff2'),
+            url("dodeca_bold_basic-webfont.woff") format('woff');
+            font-weight: bold;
+}
+
+@font-face {
+    font-family: 'Dodeca';
+    src:    url("dodeca_light_basic-webfont.woff2") format('woff2'),
+            url("dodeca_light_basic-webfont.woff") format('woff');
+            font-weight: lighter;
+}
+
+@font-face {
+    font-family: 'Dodeca';
+    src:    url("dodeca_reg_basic-webfont.woff2") format('woff2'),
+            url("dodeca_reg_basic-webfont.woff") format('woff');
+            font-weight: normal;
+}
+
+/*
+    Dark Grey: #19232C
+    Light Grey: #273742
+*/
+
+body {
+    background-color: #19232C;
+    color: white;
+    font-family: "Dodeca";
+    overflow: hidden;
+}
+
+.intro-block {
+    position: absolute;
+    bottom: 40px;
+    right: 40px;
+    z-index: 2;
+}
+
+.intro-text {
+    width: 200px;
+}
+
+h1 {
+    font-size: 3rem;
+    text-transform: uppercase;
+    margin-bottom: 0px;
+}
+
+h4 {
+    font-family: Avenir;
+    font-weight: lighter;
+}
+
+.corner {
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    border-color: white;
+    border-style: solid;
+}
+
+.corner-holder {
+    padding: 10px 30px;
+    position: relative;
+    background-color: #19232C;
+}
+
+.top-left {
+    top: -10px;
+    left: -10px;
+    border-width: 2px 0px 0px 2px;
+}
+
+.top-right {
+    top: -10px;
+    right: -10px;
+    border-width: 2px 2px 0px 0px;
+}
+
+.bottom-left {
+    bottom: -10px;
+    left: -10px;
+    border-width: 0px 0px 2px 2px;
+}
+
+.bottom-right {
+    bottom: -10px;
+    right: -10px;
+    border-width: 0px 2px 2px 0px;
+}
+
+.explore-button {
+    width: 100%;
+    margin-top: 25px;
+    border-radius: none;
+    border: 1px solid white;
+    outline: none;
+    padding: 10px;
+    text-transform: uppercase;
+    vertical-align: top;
+    line-height: 2.2;
+    font-weight: bold;
+    font-size: 1.2rem;
+    background-color: #19232C;
+    min-width: 250px;
+}
+
+.explore-button img {
+    vertical-align: text-bottom;
+    padding-right: 5px;
+}
+
+.explore-button:hover {
+    background-color: #273742;
+}
+
+/* SVG STUFF */
+
+.svg-box {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    display: -webkit-flex;
+      display:         flex;
+      -webkit-align-items: center;
+              align-items: center;
+      -webkit-justify-content: center;
+              justify-content: center;
+}
+
+svg {
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    transform: rotate(-38deg);
+    transform-origin: center;
+}
+
+.canton {
+  fill: #bbb;
+}
+
+.canton-boundary {
+  fill: none;
+  stroke: #fff;
+  stroke-linejoin: round;
+}
+
+.info {
+    position: absolute;
+    z-index: 2;
+    bottom: 40px;
+    left: 40px;
+}
+
+.info h3 {
+    font-size: 1.2rem;
+    margin-bottom: 0;
+}
+
+.info p {
+    font-size: 0.8rem;
+    margin-top: 2px;
+    font-family: 'Roboto Mono'
+}
