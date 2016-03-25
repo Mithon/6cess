@@ -101,7 +101,7 @@ function init() {
         particle.position.x = (yelp[busi].coordinate.latitude - avgLats) * 10 + 2 * (Math.random() * 80 - 40);
         particle.position.y = (yelp[busi].coordinate.longitude - avgLongs) * 10 + 2 * (Math.random() * 80 - 40);
         particle.position.z = (yelp[busi].rating - avgRate) * 100;
-        particle.scale.x = particle.scale.y = Math.sqrt(yelp[busi].review_count/50)+0.4;
+        particle.scale.x = particle.scale.y = Math.sqrt(yelp[busi].review_count/30)+0.2;
         particle.userData = yelp[busi];
         if (yelp[busi].review_count > 80)
             scene.add(particle);
@@ -145,9 +145,9 @@ function render() {
     // rotate camera
     theta += 0.1;
     camera.rotation.order = 'YXZ';
-    camera.position.x = radius * Math.sin(THREE.Math.degToRad(theta*0.1));
-    camera.position.y = radius * Math.sin(THREE.Math.degToRad(theta*0.1));
-    camera.position.z = radius * Math.cos(THREE.Math.degToRad(theta*0.1));
+    camera.position.x = radius * Math.sin(THREE.Math.degToRad(theta*0.5));
+    camera.position.y = radius * Math.sin(THREE.Math.degToRad(theta*0.2));
+    camera.position.z = radius * Math.cos(THREE.Math.degToRad(theta*1));
     camera.lookAt(scene.position);
     camera.rotation.z = Math.PI/2;
     camera.updateMatrixWorld();
@@ -175,7 +175,6 @@ function render() {
 
                     var line = new THREE.Line(geometry, material)
                     scene.add(line);
-                    console.log("line")
                 }
 
                 prev = INTERSECTED;
