@@ -25,6 +25,7 @@ var raycaster;
 var mouse;
 var prev = null;
 var prevs = [];
+var totalReviews = 0;
 
 var PI2 = Math.PI * 2;
 var programFill = function(context) {
@@ -164,8 +165,12 @@ function render() {
                 prevs.push(INTERSECTED);
                 var active = INTERSECTED.userData;
 
+                totalReviews += active.review_count;
+
                 info.innerHTML = `<h3>${active.name}</h3>
-                <p>Rating: ${active.rating} // Review Count: ${active.review_count}</p>`;
+                <p>Rating: ${active.rating} // Review Count: ${active.review_count}</p>
+                <p>Selected: ${prevs.length-1} Businesses // Total Review Count: ${totalReviews}`;
+
 
 
                 if (prev != null && prevs.length > 2) {

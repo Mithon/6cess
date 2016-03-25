@@ -178,6 +178,7 @@ svg {
 .info p {
     font-size: 0.8rem;
     margin-top: 2px;
+    margin-bottom: 2px;
     font-family: 'Roboto Mono'
 }
 
@@ -216,12 +217,6 @@ header {
     justify-content: space-between;
 }
 
-.panel {
-    background-color: #273742;
-    width: 100%;
-    height: 1200px;
-}
-
 nav {
     display: inline-block;
     display: flex;
@@ -241,4 +236,44 @@ nav {
 .active-tab {
     background-color: #273742;
     border-color: #00FFEA;
+}
+
+/* PANEL STYLES */
+
+.panel {
+    background-color: #273742;
+    width: 100%;
+    height: 1200px;
+    padding: 40px 5%;
+}
+
+.heading {
+    height: 170px;
+}
+
+.heading h2 {
+    margin: 20px 10px;
+    font-weight: lighter;
+    font-size: 4.5rem;
+    text-transform: uppercase;
+    max-width: 750px;
+    line-height: 0.95;
+    display: inline-block;
+}
+
+.head-border {
+    width: 20px;
+    display: inline-block;
+    border-right: 1px solid white;
+    height: 100%;
+    vertical-align: top;
+}
+
+.head-border p {
+    transform-origin: 15% 50%;
+    -webkit-transform: rotate(90deg);
+    font-family: 'Roboto Mono';
+    font-size: 0.3rem;
+    display: inline-block;
+    width: 80px;
 }
