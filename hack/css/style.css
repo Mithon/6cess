@@ -1,29 +1,29 @@
 @font-face {
     font-family: 'Dodeca';
-    src:    url("dodeca_bold_basic-webfont.woff2") format('woff2'),
-            url("dodeca_bold_basic-webfont.woff") format('woff');
+    src:    url("../../public/css/dodeca_bold_basic-webfont.woff2") format('woff2'),
+            url("../../public/css/dodeca_bold_basic-webfont.woff") format('woff');
             font-weight: bold;
 }
 
 @font-face {
     font-family: 'Dodeca';
-    src:    url("dodeca_light_basic-webfont.woff2") format('woff2'),
-            url("dodeca_light_basic-webfont.woff") format('woff');
+    src:    url("../../public/css/dodeca_light_basic-webfont.woff2") format('woff2'),
+            url("../../public/css/dodeca_light_basic-webfont.woff") format('woff');
             font-weight: lighter;
 }
 
 @font-face {
     font-family: 'Dodeca';
-    src:    url("dodeca_reg_basic-webfont.woff2") format('woff2'),
-            url("dodeca_reg_basic-webfont.woff") format('woff');
+    src:    url("../../public/css/dodeca_reg_basic-webfont.woff2") format('woff2'),
+            url("../../public/css/dodeca_reg_basic-webfont.woff") format('woff');
             font-weight: normal;
 }
 
 @font-face {
 	font-family: 'Avenir';
 	src: local('Avenir Book'), local('Avenir-Book'),
-		url('hinted-Avenir-Book.woff2') format('woff2'),
-		url('hinted-Avenir-Book.woff') format('woff');
+		url('../../public/css/hinted-Avenir-Book.woff2') format('woff2'),
+		url('../../public/css/hinted-Avenir-Book.woff') format('woff');
 	font-weight: normal;
 	font-style: normal;
 }
@@ -182,102 +182,9 @@ svg {
     font-family: 'Roboto Mono'
 }
 
-/* Main Styles */
 
-main {
-    top: 0;
-    left: 0;
-    z-index: 10;
-    width: 100%;
-    height: 100%;
-    position: absolute;
 
-    -webkit-transition: all ease-in-out 0.3s;
-    -moz-transition: all ease-in-out 0.3s;
-    transition: all ease-in-out 0.3s;
-}
-
-.hide-main {
-    transform: translateY(1000px);
-
-    -webkit-transition: all ease-in-out 0.3s;
-    -moz-transition: all ease-in-out 0.3s;
-    transition: all ease-in-out 0.3s;
-}
-
-.top-icon {
-    padding-top: 6px;
-    padding-left: 10px;
-    padding-right: 100px;
-}
-
-header {
-    height: 70px;
-    display: flex;
-    justify-content: space-between;
-}
-
-nav {
-    display: inline-block;
-    display: flex;
-}
-
-.tab {
-    align-self: flex-end;
-    display: inline-block;
-    background-color: #1D2A33;
-    padding: 15px 45px;
-    margin-right: 20px;
-    color: white;
-    text-decoration: none;
-    border-top: 2px solid #273742;
-}
-
-.active-tab {
-    background-color: #273742;
-    border-color: #00FFEA;
-}
-
-/* PANEL STYLES */
-
-.panel {
-    background-color: #273742;
-    width: 100%;
-    height: 1200px;
-    padding: 40px 5%;
-}
-
-.heading {
-    height: 170px;
-}
-
-.heading h2 {
-    margin: 20px 10px;
+span {
     font-weight: lighter;
-    font-size: 4.5rem;
-    text-transform: uppercase;
-    max-width: 750px;
-    line-height: 0.95;
-    display: inline-block;
-}
-
-.head-border {
-    width: 20px;
-    display: inline-block;
-    border-right: 1px solid white;
-    height: 100%;
-    vertical-align: top;
-}
-
-.head-border p {
-    transform-origin: 15% 50%;
-    -webkit-transform: rotate(90deg);
-    font-family: 'Roboto Mono';
-    font-size: 0.3rem;
-    display: inline-block;
-    width: 80px;
-}
-
-.heading.explore {
-    height: 120px;
+    font-style: italic;
 }
