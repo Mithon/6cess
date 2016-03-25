@@ -1,29 +1,29 @@
 @font-face {
     font-family: 'Dodeca';
-    src:    url("../../public/css/dodeca_bold_basic-webfont.woff2") format('woff2'),
-            url("../../public/css/dodeca_bold_basic-webfont.woff") format('woff');
+    src:    url("../../css/dodeca_bold_basic-webfont.woff2") format('woff2'),
+            url("../../css/dodeca_bold_basic-webfont.woff") format('woff');
             font-weight: bold;
 }
 
 @font-face {
     font-family: 'Dodeca';
-    src:    url("../../public/css/dodeca_light_basic-webfont.woff2") format('woff2'),
-            url("../../public/css/dodeca_light_basic-webfont.woff") format('woff');
+    src:    url("../../css/dodeca_light_basic-webfont.woff2") format('woff2'),
+            url("../../css/dodeca_light_basic-webfont.woff") format('woff');
             font-weight: lighter;
 }
 
 @font-face {
     font-family: 'Dodeca';
-    src:    url("../../public/css/dodeca_reg_basic-webfont.woff2") format('woff2'),
-            url("../../public/css/dodeca_reg_basic-webfont.woff") format('woff');
+    src:    url("../../css/dodeca_reg_basic-webfont.woff2") format('woff2'),
+            url("../../css/dodeca_reg_basic-webfont.woff") format('woff');
             font-weight: normal;
 }
 
 @font-face {
 	font-family: 'Avenir';
 	src: local('Avenir Book'), local('Avenir-Book'),
-		url('../../public/css/hinted-Avenir-Book.woff2') format('woff2'),
-		url('../../public/css/hinted-Avenir-Book.woff') format('woff');
+		url('../../css/hinted-Avenir-Book.woff2') format('woff2'),
+		url('../../css/hinted-Avenir-Book.woff') format('woff');
 	font-weight: normal;
 	font-style: normal;
 }
