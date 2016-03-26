@@ -1,0 +1,2762 @@
+[
+ {
+  "word": "2",
+  "number": 8,
+  "rating": "3.88"
+ },
+ {
+  "word": "3",
+  "number": 14,
+  "rating": "3.68"
+ },
+ {
+  "word": "7",
+  "number": 10,
+  "rating": "3.50"
+ },
+ {
+  "word": "99",
+  "number": 8,
+  "rating": "3.13"
+ },
+ {
+  "word": "al",
+  "number": 9,
+  "rating": "3.89"
+ },
+ {
+  "word": "al's",
+  "number": 8,
+  "rating": "4.25"
+ },
+ {
+  "word": "ale",
+  "number": 13,
+  "rating": "4.35"
+ },
+ {
+  "word": "all",
+  "number": 12,
+  "rating": "4.29"
+ },
+ {
+  "word": "a",
+  "number": 35,
+  "rating": "3.19"
+ },
+ {
+  "word": "american",
+  "number": 27,
+  "rating": "3.96"
+ },
+ {
+  "word": "and",
+  "number": 242,
+  "rating": "3.95"
+ },
+ {
+  "word": "anthony's",
+  "number": 13,
+  "rating": "4.00"
+ },
+ {
+  "word": "applebee's",
+  "number": 17,
+  "rating": "3.74"
+ },
+ {
+  "word": "aroma",
+  "number": 8,
+  "rating": "3.81"
+ },
+ {
+  "word": "artisan",
+  "number": 8,
+  "rating": "4.00"
+ },
+ {
+  "word": "asia",
+  "number": 9,
+  "rating": "3.94"
+ },
+ {
+  "word": "asian",
+  "number": 60,
+  "rating": "3.75"
+ },
+ {
+  "word": "astor's",
+  "number": 9,
+  "rating": "3.56"
+ },
+ {
+  "word": "at",
+  "number": 52,
+  "rating": "3.69"
+ },
+ {
+  "word": "athens",
+  "number": 8,
+  "rating": "3.88"
+ },
+ {
+  "word": "atlanta",
+  "number": 9,
+  "rating": "3.56"
+ },
+ {
+  "word": "authentic",
+  "number": 9,
+  "rating": "4.00"
+ },
+ {
+  "word": "avenue",
+  "number": 14,
+  "rating": "4.07"
+ },
+ {
+  "word": "azteca",
+  "number": 8,
+  "rating": "3.19"
+ },
+ {
+  "word": "bagel",
+  "number": 20,
+  "rating": "4.03"
+ },
+ {
+  "word": "bagels",
+  "number": 19,
+  "rating": "3.74"
+ },
+ {
+  "word": "bakery",
+  "number": 153,
+  "rating": "3.67"
+ },
+ {
+  "word": "bamboo",
+  "number": 9,
+  "rating": "3.61"
+ },
+ {
+  "word": "bang",
+  "number": 7,
+  "rating": "3.64"
+ },
+ {
+  "word": "bangkok",
+  "number": 10,
+  "rating": "3.80"
+ },
+ {
+  "word": "banh",
+  "number": 7,
+  "rating": "3.64"
+ },
+ {
+  "word": "bar",
+  "number": 489,
+  "rating": "3.83"
+ },
+ {
+  "word": "bar-b-q",
+  "number": 8,
+  "rating": "4.25"
+ },
+ {
+  "word": "b",
+  "number": 13,
+  "rating": "3.35"
+ },
+ {
+  "word": "barbecue",
+  "number": 14,
+  "rating": "3.64"
+ },
+ {
+  "word": "barbeque",
+  "number": 18,
+  "rating": "3.83"
+ },
+ {
+  "word": "barrel",
+  "number": 18,
+  "rating": "3.69"
+ },
+ {
+  "word": "basil",
+  "number": 8,
+  "rating": "4.13"
+ },
+ {
+  "word": "bastard",
+  "number": 7,
+  "rating": "3.86"
+ },
+ {
+  "word": "bay",
+  "number": 10,
+  "rating": "4.05"
+ },
+ {
+  "word": "bbq",
+  "number": 95,
+  "rating": "3.80"
+ },
+ {
+  "word": "beach",
+  "number": 7,
+  "rating": "3.50"
+ },
+ {
+  "word": "bean",
+  "number": 12,
+  "rating": "4.13"
+ },
+ {
+  "word": "bear",
+  "number": 7,
+  "rating": "3.79"
+ },
+ {
+  "word": "beef",
+  "number": 41,
+  "rating": "3.70"
+ },
+ {
+  "word": "beer",
+  "number": 19,
+  "rating": "3.47"
+ },
+ {
+  "word": "bella",
+  "number": 8,
+  "rating": "4.13"
+ },
+ {
+  "word": "bento",
+  "number": 7,
+  "rating": "4.07"
+ },
+ {
+  "word": "best",
+  "number": 12,
+  "rating": "4.04"
+ },
+ {
+  "word": "big",
+  "number": 55,
+  "rating": "3.88"
+ },
+ {
+  "word": "bistro",
+  "number": 122,
+  "rating": "4.00"
+ },
+ {
+  "word": "black",
+  "number": 17,
+  "rating": "3.85"
+ },
+ {
+  "word": "bloor",
+  "number": 10,
+  "rating": "3.25"
+ },
+ {
+  "word": "blue",
+  "number": 33,
+  "rating": "3.67"
+ },
+ {
+  "word": "bon",
+  "number": 13,
+  "rating": "3.92"
+ },
+ {
+  "word": "border",
+  "number": 9,
+  "rating": "4.00"
+ },
+ {
+  "word": "boston",
+  "number": 9,
+  "rating": "3.94"
+ },
+ {
+  "word": "bowl",
+  "number": 10,
+  "rating": "3.60"
+ },
+ {
+  "word": "box",
+  "number": 16,
+  "rating": "3.81"
+ },
+ {
+  "word": "boy",
+  "number": 8,
+  "rating": "3.63"
+ },
+ {
+  "word": "boys",
+  "number": 7,
+  "rating": "3.50"
+ },
+ {
+  "word": "boyz",
+  "number": 8,
+  "rating": "4.00"
+ },
+ {
+  "word": "brasa",
+  "number": 8,
+  "rating": "3.25"
+ },
+ {
+  "word": "brasserie",
+  "number": 7,
+  "rating": "3.71"
+ },
+ {
+  "word": "brazilian",
+  "number": 11,
+  "rating": "3.50"
+ },
+ {
+  "word": "bread",
+  "number": 54,
+  "rating": "3.45"
+ },
+ {
+  "word": "breakfast",
+  "number": 26,
+  "rating": "3.37"
+ },
+ {
+  "word": "brew",
+  "number": 12,
+  "rating": "3.33"
+ },
+ {
+  "word": "brewery",
+  "number": 26,
+  "rating": "3.46"
+ },
+ {
+  "word": "brewing",
+  "number": 41,
+  "rating": "3.11"
+ },
+ {
+  "word": "brick",
+  "number": 7,
+  "rating": "4.07"
+ },
+ {
+  "word": "broadway",
+  "number": 11,
+  "rating": "3.86"
+ },
+ {
+  "word": "brooklyn",
+  "number": 7,
+  "rating": "3.00"
+ },
+ {
+  "word": "brothers",
+  "number": 12,
+  "rating": "3.50"
+ },
+ {
+  "word": "bruegger's",
+  "number": 7,
+  "rating": "2.93"
+ },
+ {
+  "word": "buddha",
+  "number": 7,
+  "rating": "3.36"
+ },
+ {
+  "word": "buffalo",
+  "number": 17,
+  "rating": "3.74"
+ },
+ {
+  "word": "buffet",
+  "number": 35,
+  "rating": "3.53"
+ },
+ {
+  "word": "burger",
+  "number": 93,
+  "rating": "3.83"
+ },
+ {
+  "word": "burger's",
+  "number": 7,
+  "rating": "4.07"
+ },
+ {
+  "word": "burgers",
+  "number": 79,
+  "rating": "3.41"
+ },
+ {
+  "word": "burrito",
+  "number": 50,
+  "rating": "4.22"
+ },
+ {
+  "word": "butcher",
+  "number": 8,
+  "rating": "4.25"
+ },
+ {
+  "word": "by",
+  "number": 23,
+  "rating": "3.89"
+ },
+ {
+  "word": "cafe",
+  "number": 492,
+  "rating": "3.77"
+ },
+ {
+  "word": "caffe",
+  "number": 23,
+  "rating": "3.83"
+ },
+ {
+  "word": "café",
+  "number": 84,
+  "rating": "3.67"
+ },
+ {
+  "word": "cajun",
+  "number": 8,
+  "rating": "3.69"
+ },
+ {
+  "word": "cake",
+  "number": 11,
+  "rating": "3.82"
+ },
+ {
+  "word": "california",
+  "number": 15,
+  "rating": "3.93"
+ },
+ {
+  "word": "cantina",
+  "number": 27,
+  "rating": "3.91"
+ },
+ {
+  "word": "caribbean",
+  "number": 26,
+  "rating": "3.50"
+ },
+ {
+  "word": "carolina",
+  "number": 10,
+  "rating": "2.80"
+ },
+ {
+  "word": "carrabba's",
+  "number": 8,
+  "rating": "3.31"
+ },
+ {
+  "word": "casa",
+  "number": 15,
+  "rating": "3.53"
+ },
+ {
+  "word": "catering",
+  "number": 47,
+  "rating": "3.55"
+ },
+ {
+  "word": "center",
+  "number": 10,
+  "rating": "3.20"
+ },
+ {
+  "word": "central",
+  "number": 11,
+  "rating": "4.14"
+ },
+ {
+  "word": "centre",
+  "number": 9,
+  "rating": "3.17"
+ },
+ {
+  "word": "cha",
+  "number": 9,
+  "rating": "3.00"
+ },
+ {
+  "word": "chang's",
+  "number": 9,
+  "rating": "3.94"
+ },
+ {
+  "word": "charlotte",
+  "number": 9,
+  "rating": "3.67"
+ },
+ {
+  "word": "chatime",
+  "number": 8,
+  "rating": "3.13"
+ },
+ {
+  "word": "cheese",
+  "number": 13,
+  "rating": "3.12"
+ },
+ {
+  "word": "cheesecake",
+  "number": 8,
+  "rating": "4.00"
+ },
+ {
+  "word": "chef",
+  "number": 19,
+  "rating": "3.58"
+ },
+ {
+  "word": "cherry",
+  "number": 7,
+  "rating": "3.64"
+ },
+ {
+  "word": "chicago",
+  "number": 17,
+  "rating": "3.76"
+ },
+ {
+  "word": "chick-fil-a",
+  "number": 28,
+  "rating": "3.89"
+ },
+ {
+  "word": "chicken",
+  "number": 45,
+  "rating": "3.69"
+ },
+ {
+  "word": "chili",
+  "number": 10,
+  "rating": "4.00"
+ },
+ {
+  "word": "chili's",
+  "number": 21,
+  "rating": "4.12"
+ },
+ {
+  "word": "china",
+  "number": 47,
+  "rating": "3.70"
+ },
+ {
+  "word": "chinese",
+  "number": 99,
+  "rating": "3.57"
+ },
+ {
+  "word": "chipotle",
+  "number": 31,
+  "rating": "3.89"
+ },
+ {
+  "word": "chips",
+  "number": 29,
+  "rating": "3.33"
+ },
+ {
+  "word": "chocolate",
+  "number": 8,
+  "rating": "4.06"
+ },
+ {
+  "word": "chop",
+  "number": 10,
+  "rating": "4.40"
+ },
+ {
+  "word": "chow",
+  "number": 7,
+  "rating": "3.71"
+ },
+ {
+  "word": "city",
+  "number": 40,
+  "rating": "3.41"
+ },
+ {
+  "word": "club",
+  "number": 41,
+  "rating": "3.22"
+ },
+ {
+  "word": "co",
+  "number": 35,
+  "rating": "3.67"
+ },
+ {
+  "word": "co.",
+  "number": 9,
+  "rating": "3.56"
+ },
+ {
+  "word": "coal",
+  "number": 9,
+  "rating": "3.33"
+ },
+ {
+  "word": "cocina",
+  "number": 15,
+  "rating": "2.53"
+ },
+ {
+  "word": "coffee",
+  "number": 136,
+  "rating": "3.65"
+ },
+ {
+  "word": "collins",
+  "number": 7,
+  "rating": "4.07"
+ },
+ {
+  "word": "common",
+  "number": 8,
+  "rating": "4.00"
+ },
+ {
+  "word": "company",
+  "number": 72,
+  "rating": "3.90"
+ },
+ {
+  "word": "congee",
+  "number": 17,
+  "rating": "4.00"
+ },
+ {
+  "word": "corner",
+  "number": 19,
+  "rating": "3.71"
+ },
+ {
+  "word": "country",
+  "number": 22,
+  "rating": "3.77"
+ },
+ {
+  "word": "court",
+  "number": 11,
+  "rating": "3.95"
+ },
+ {
+  "word": "cracker",
+  "number": 8,
+  "rating": "4.00"
+ },
+ {
+  "word": "cream",
+  "number": 21,
+  "rating": "3.86"
+ },
+ {
+  "word": "creek",
+  "number": 10,
+  "rating": "3.70"
+ },
+ {
+  "word": "creperie",
+  "number": 9,
+  "rating": "4.06"
+ },
+ {
+  "word": "crown",
+  "number": 10,
+  "rating": "3.65"
+ },
+ {
+  "word": "c",
+  "number": 9,
+  "rating": "3.11"
+ },
+ {
+  "word": "cuban",
+  "number": 12,
+  "rating": "3.88"
+ },
+ {
+  "word": "cucina",
+  "number": 12,
+  "rating": "3.96"
+ },
+ {
+  "word": "cuisine",
+  "number": 172,
+  "rating": "3.77"
+ },
+ {
+  "word": "cup",
+  "number": 8,
+  "rating": "3.94"
+ },
+ {
+  "word": "cupcakes",
+  "number": 8,
+  "rating": "3.38"
+ },
+ {
+  "word": "curry",
+  "number": 7,
+  "rating": "3.86"
+ },
+ {
+  "word": "danforth",
+  "number": 11,
+  "rating": "3.86"
+ },
+ {
+  "word": "de",
+  "number": 26,
+  "rating": "3.85"
+ },
+ {
+  "word": "del",
+  "number": 10,
+  "rating": "3.85"
+ },
+ {
+  "word": "deli",
+  "number": 139,
+  "rating": "3.67"
+ },
+ {
+  "word": "delicatessen",
+  "number": 15,
+  "rating": "3.67"
+ },
+ {
+  "word": "delight",
+  "number": 15,
+  "rating": "3.47"
+ },
+ {
+  "word": "denny's",
+  "number": 8,
+  "rating": "4.06"
+ },
+ {
+  "word": "dessert",
+  "number": 9,
+  "rating": "3.83"
+ },
+ {
+  "word": "desserts",
+  "number": 7,
+  "rating": "4.21"
+ },
+ {
+  "word": "di",
+  "number": 7,
+  "rating": "4.21"
+ },
+ {
+  "word": "diego",
+  "number": 10,
+  "rating": "3.65"
+ },
+ {
+  "word": "dim",
+  "number": 9,
+  "rating": "3.78"
+ },
+ {
+  "word": "diner",
+  "number": 71,
+  "rating": "3.80"
+ },
+ {
+  "word": "dining",
+  "number": 13,
+  "rating": "3.42"
+ },
+ {
+  "word": "dog",
+  "number": 14,
+  "rating": "3.79"
+ },
+ {
+  "word": "dogs",
+  "number": 8,
+  "rating": "3.88"
+ },
+ {
+  "word": "don",
+  "number": 13,
+  "rating": "3.85"
+ },
+ {
+  "word": "donuts",
+  "number": 13,
+  "rating": "3.65"
+ },
+ {
+  "word": "door",
+  "number": 11,
+  "rating": "3.86"
+ },
+ {
+  "word": "downtown",
+  "number": 19,
+  "rating": "3.58"
+ },
+ {
+  "word": "dragon",
+  "number": 23,
+  "rating": "3.96"
+ },
+ {
+  "word": "drink",
+  "number": 10,
+  "rating": "3.95"
+ },
+ {
+  "word": "drive",
+  "number": 9,
+  "rating": "3.56"
+ },
+ {
+  "word": "drive-in",
+  "number": 9,
+  "rating": "3.67"
+ },
+ {
+  "word": "dumpling",
+  "number": 12,
+  "rating": "3.29"
+ },
+ {
+  "word": "east",
+  "number": 30,
+  "rating": "3.95"
+ },
+ {
+  "word": "eastern",
+  "number": 8,
+  "rating": "3.44"
+ },
+ {
+  "word": "easy",
+  "number": 7,
+  "rating": "3.86"
+ },
+ {
+  "word": "eat",
+  "number": 11,
+  "rating": "4.36"
+ },
+ {
+  "word": "eatery",
+  "number": 34,
+  "rating": "3.62"
+ },
+ {
+  "word": "egg",
+  "number": 8,
+  "rating": "3.88"
+ },
+ {
+  "word": "el",
+  "number": 81,
+  "rating": "3.86"
+ },
+ {
+  "word": "empire",
+  "number": 7,
+  "rating": "3.29"
+ },
+ {
+  "word": "end",
+  "number": 8,
+  "rating": "3.13"
+ },
+ {
+  "word": "espresso",
+  "number": 34,
+  "rating": "3.96"
+ },
+ {
+  "word": "ethiopian",
+  "number": 11,
+  "rating": "4.05"
+ },
+ {
+  "word": "express",
+  "number": 59,
+  "rating": "3.99"
+ },
+ {
+  "word": "e",
+  "number": 9,
+  "rating": "3.50"
+ },
+ {
+  "word": "factory",
+  "number": 21,
+  "rating": "3.83"
+ },
+ {
+  "word": "falafel",
+  "number": 16,
+  "rating": "4.03"
+ },
+ {
+  "word": "family",
+  "number": 32,
+  "rating": "3.84"
+ },
+ {
+  "word": "famous",
+  "number": 28,
+  "rating": "3.86"
+ },
+ {
+  "word": "farm",
+  "number": 9,
+  "rating": "3.67"
+ },
+ {
+  "word": "farms",
+  "number": 8,
+  "rating": "3.88"
+ },
+ {
+  "word": "fat",
+  "number": 20,
+  "rating": "3.77"
+ },
+ {
+  "word": "fiesta",
+  "number": 9,
+  "rating": "3.67"
+ },
+ {
+  "word": "fine",
+  "number": 37,
+  "rating": "3.77"
+ },
+ {
+  "word": "fire",
+  "number": 9,
+  "rating": "3.72"
+ },
+ {
+  "word": "fired",
+  "number": 19,
+  "rating": "3.47"
+ },
+ {
+  "word": "firehouse",
+  "number": 10,
+  "rating": "3.65"
+ },
+ {
+  "word": "firkin",
+  "number": 9,
+  "rating": "3.33"
+ },
+ {
+  "word": "first",
+  "number": 8,
+  "rating": "4.00"
+ },
+ {
+  "word": "fish",
+  "number": 66,
+  "rating": "3.78"
+ },
+ {
+  "word": "five",
+  "number": 33,
+  "rating": "3.89"
+ },
+ {
+  "word": "flats",
+  "number": 13,
+  "rating": "3.81"
+ },
+ {
+  "word": "food",
+  "number": 109,
+  "rating": "3.67"
+ },
+ {
+  "word": "foods",
+  "number": 49,
+  "rating": "3.66"
+ },
+ {
+  "word": "for",
+  "number": 10,
+  "rating": "3.65"
+ },
+ {
+  "word": "fork",
+  "number": 9,
+  "rating": "2.72"
+ },
+ {
+  "word": "fox",
+  "number": 13,
+  "rating": "4.04"
+ },
+ {
+  "word": "french",
+  "number": 12,
+  "rating": "3.50"
+ },
+ {
+  "word": "fresh",
+  "number": 51,
+  "rating": "3.62"
+ },
+ {
+  "word": "friday's",
+  "number": 14,
+  "rating": "3.29"
+ },
+ {
+  "word": "fries",
+  "number": 35,
+  "rating": "3.86"
+ },
+ {
+  "word": "frozen",
+  "number": 11,
+  "rating": "4.14"
+ },
+ {
+  "word": "fuji",
+  "number": 7,
+  "rating": "3.50"
+ },
+ {
+  "word": "full",
+  "number": 7,
+  "rating": "3.50"
+ },
+ {
+  "word": "fusion",
+  "number": 29,
+  "rating": "3.57"
+ },
+ {
+  "word": "ga",
+  "number": 7,
+  "rating": "3.14"
+ },
+ {
+  "word": "gallery",
+  "number": 8,
+  "rating": "3.44"
+ },
+ {
+  "word": "garden",
+  "number": 74,
+  "rating": "3.57"
+ },
+ {
+  "word": "gaslamp",
+  "number": 7,
+  "rating": "4.21"
+ },
+ {
+  "word": "gate",
+  "number": 7,
+  "rating": "3.93"
+ },
+ {
+  "word": "gelato",
+  "number": 12,
+  "rating": "4.00"
+ },
+ {
+  "word": "george's",
+  "number": 8,
+  "rating": "3.50"
+ },
+ {
+  "word": "ginger",
+  "number": 13,
+  "rating": "3.73"
+ },
+ {
+  "word": "girl",
+  "number": 9,
+  "rating": "3.67"
+ },
+ {
+  "word": "go",
+  "number": 14,
+  "rating": "2.68"
+ },
+ {
+  "word": "golden",
+  "number": 37,
+  "rating": "3.89"
+ },
+ {
+  "word": "good",
+  "number": 23,
+  "rating": "3.39"
+ },
+ {
+  "word": "gourmet",
+  "number": 59,
+  "rating": "3.54"
+ },
+ {
+  "word": "grand",
+  "number": 17,
+  "rating": "3.62"
+ },
+ {
+  "word": "great",
+  "number": 18,
+  "rating": "3.78"
+ },
+ {
+  "word": "greek",
+  "number": 23,
+  "rating": "3.78"
+ },
+ {
+  "word": "green",
+  "number": 29,
+  "rating": "3.69"
+ },
+ {
+  "word": "greens",
+  "number": 9,
+  "rating": "3.94"
+ },
+ {
+  "word": "grill",
+  "number": 520,
+  "rating": "3.59"
+ },
+ {
+  "word": "grille",
+  "number": 50,
+  "rating": "3.67"
+ },
+ {
+  "word": "guys",
+  "number": 35,
+  "rating": "3.59"
+ },
+ {
+  "word": "gyros",
+  "number": 11,
+  "rating": "4.41"
+ },
+ {
+  "word": "hacienda",
+  "number": 7,
+  "rating": "4.36"
+ },
+ {
+  "word": "hakka",
+  "number": 9,
+  "rating": "4.17"
+ },
+ {
+  "word": "hall",
+  "number": 9,
+  "rating": "3.67"
+ },
+ {
+  "word": "harvest",
+  "number": 7,
+  "rating": "3.50"
+ },
+ {
+  "word": "hero",
+  "number": 8,
+  "rating": "3.50"
+ },
+ {
+  "word": "hibachi",
+  "number": 11,
+  "rating": "3.59"
+ },
+ {
+  "word": "hill",
+  "number": 13,
+  "rating": "3.04"
+ },
+ {
+  "word": "hillcrest",
+  "number": 9,
+  "rating": "3.44"
+ },
+ {
+  "word": "ho",
+  "number": 12,
+  "rating": "3.38"
+ },
+ {
+  "word": "home",
+  "number": 7,
+  "rating": "4.21"
+ },
+ {
+  "word": "hong",
+  "number": 12,
+  "rating": "3.29"
+ },
+ {
+  "word": "hooters",
+  "number": 7,
+  "rating": "3.86"
+ },
+ {
+  "word": "horse",
+  "number": 9,
+  "rating": "3.56"
+ },
+ {
+  "word": "hot",
+  "number": 33,
+  "rating": "3.42"
+ },
+ {
+  "word": "hotel",
+  "number": 12,
+  "rating": "3.46"
+ },
+ {
+  "word": "house",
+  "number": 296,
+  "rating": "3.57"
+ },
+ {
+  "word": "hut",
+  "number": 19,
+  "rating": "4.13"
+ },
+ {
+  "word": "ice",
+  "number": 24,
+  "rating": "3.73"
+ },
+ {
+  "word": "ichiban",
+  "number": 9,
+  "rating": "4.22"
+ },
+ {
+  "word": "ihop",
+  "number": 10,
+  "rating": "3.65"
+ },
+ {
+  "word": "ii",
+  "number": 24,
+  "rating": "3.52"
+ },
+ {
+  "word": "il",
+  "number": 15,
+  "rating": "3.53"
+ },
+ {
+  "word": "in",
+  "number": 34,
+  "rating": "3.84"
+ },
+ {
+  "word": "india",
+  "number": 21,
+  "rating": "3.88"
+ },
+ {
+  "word": "indian",
+  "number": 49,
+  "rating": "3.93"
+ },
+ {
+  "word": "inn",
+  "number": 28,
+  "rating": "3.91"
+ },
+ {
+  "word": "irish",
+  "number": 18,
+  "rating": "3.61"
+ },
+ {
+  "word": "island",
+  "number": 22,
+  "rating": "3.84"
+ },
+ {
+  "word": "italian",
+  "number": 111,
+  "rating": "3.73"
+ },
+ {
+  "word": "italiana",
+  "number": 7,
+  "rating": "3.86"
+ },
+ {
+  "word": "izakaya",
+  "number": 22,
+  "rating": "3.64"
+ },
+ {
+  "word": "i",
+  "number": 13,
+  "rating": "3.96"
+ },
+ {
+  "word": "jack",
+  "number": 14,
+  "rating": "3.64"
+ },
+ {
+  "word": "jack's",
+  "number": 10,
+  "rating": "4.00"
+ },
+ {
+  "word": "jamaican",
+  "number": 10,
+  "rating": "4.10"
+ },
+ {
+  "word": "japan",
+  "number": 9,
+  "rating": "3.83"
+ },
+ {
+  "word": "japanese",
+  "number": 107,
+  "rating": "3.80"
+ },
+ {
+  "word": "jason's",
+  "number": 8,
+  "rating": "4.50"
+ },
+ {
+  "word": "jerk",
+  "number": 20,
+  "rating": "3.92"
+ },
+ {
+  "word": "jimmy",
+  "number": 8,
+  "rating": "3.75"
+ },
+ {
+  "word": "jimmy's",
+  "number": 8,
+  "rating": "3.88"
+ },
+ {
+  "word": "joe",
+  "number": 8,
+  "rating": "4.00"
+ },
+ {
+  "word": "joe's",
+  "number": 33,
+  "rating": "3.83"
+ },
+ {
+  "word": "john's",
+  "number": 16,
+  "rating": "3.69"
+ },
+ {
+  "word": "johnny",
+  "number": 9,
+  "rating": "4.44"
+ },
+ {
+  "word": "joint",
+  "number": 9,
+  "rating": "4.28"
+ },
+ {
+  "word": "juice",
+  "number": 22,
+  "rating": "4.11"
+ },
+ {
+  "word": "just",
+  "number": 9,
+  "rating": "4.06"
+ },
+ {
+  "word": "kabab",
+  "number": 8,
+  "rating": "3.75"
+ },
+ {
+  "word": "kabob",
+  "number": 24,
+  "rating": "3.73"
+ },
+ {
+  "word": "kebab",
+  "number": 12,
+  "rating": "3.63"
+ },
+ {
+  "word": "keg",
+  "number": 10,
+  "rating": "3.80"
+ },
+ {
+  "word": "king",
+  "number": 39,
+  "rating": "3.81"
+ },
+ {
+  "word": "kitchen",
+  "number": 190,
+  "rating": "3.81"
+ },
+ {
+  "word": "kong",
+  "number": 10,
+  "rating": "3.45"
+ },
+ {
+  "word": "korean",
+  "number": 33,
+  "rating": "3.86"
+ },
+ {
+  "word": "la",
+  "number": 152,
+  "rating": "3.85"
+ },
+ {
+  "word": "lake",
+  "number": 7,
+  "rating": "2.79"
+ },
+ {
+  "word": "las",
+  "number": 20,
+  "rating": "3.77"
+ },
+ {
+  "word": "le",
+  "number": 20,
+  "rating": "3.35"
+ },
+ {
+  "word": "leaf",
+  "number": 7,
+  "rating": "3.43"
+ },
+ {
+  "word": "lee",
+  "number": 8,
+  "rating": "3.06"
+ },
+ {
+  "word": "legend",
+  "number": 13,
+  "rating": "3.62"
+ },
+ {
+  "word": "liberty",
+  "number": 8,
+  "rating": "3.44"
+ },
+ {
+  "word": "lime",
+  "number": 7,
+  "rating": "3.64"
+ },
+ {
+  "word": "little",
+  "number": 38,
+  "rating": "3.93"
+ },
+ {
+  "word": "lobster",
+  "number": 23,
+  "rating": "3.52"
+ },
+ {
+  "word": "local",
+  "number": 12,
+  "rating": "3.04"
+ },
+ {
+  "word": "loco",
+  "number": 9,
+  "rating": "3.50"
+ },
+ {
+  "word": "longhorn",
+  "number": 9,
+  "rating": "4.00"
+ },
+ {
+  "word": "los",
+  "number": 32,
+  "rating": "3.36"
+ },
+ {
+  "word": "lotus",
+  "number": 8,
+  "rating": "4.25"
+ },
+ {
+  "word": "louis",
+  "number": 14,
+  "rating": "3.50"
+ },
+ {
+  "word": "lounge",
+  "number": 62,
+  "rating": "3.23"
+ },
+ {
+  "word": "love",
+  "number": 9,
+  "rating": "3.78"
+ },
+ {
+  "word": "lucky",
+  "number": 10,
+  "rating": "3.35"
+ },
+ {
+  "word": "lunch",
+  "number": 17,
+  "rating": "3.44"
+ },
+ {
+  "word": "mad",
+  "number": 10,
+  "rating": "3.55"
+ },
+ {
+  "word": "magic",
+  "number": 9,
+  "rating": "2.83"
+ },
+ {
+  "word": "main",
+  "number": 8,
+  "rating": "3.06"
+ },
+ {
+  "word": "mama",
+  "number": 8,
+  "rating": "3.06"
+ },
+ {
+  "word": "mandarin",
+  "number": 10,
+  "rating": "3.10"
+ },
+ {
+  "word": "mariscos",
+  "number": 12,
+  "rating": "3.38"
+ },
+ {
+  "word": "market",
+  "number": 107,
+  "rating": "3.88"
+ },
+ {
+  "word": "marketplace",
+  "number": 7,
+  "rating": "4.00"
+ },
+ {
+  "word": "mart",
+  "number": 8,
+  "rating": "3.63"
+ },
+ {
+  "word": "mcdonald's",
+  "number": 15,
+  "rating": "3.30"
+ },
+ {
+  "word": "me",
+  "number": 19,
+  "rating": "3.92"
+ },
+ {
+  "word": "meat",
+  "number": 13,
+  "rating": "4.23"
+ },
+ {
+  "word": "mediterranean",
+  "number": 26,
+  "rating": "4.31"
+ },
+ {
+  "word": "metro",
+  "number": 9,
+  "rating": "4.28"
+ },
+ {
+  "word": "mexican",
+  "number": 164,
+  "rating": "4.16"
+ },
+ {
+  "word": "mexicana",
+  "number": 9,
+  "rating": "3.83"
+ },
+ {
+  "word": "mexico",
+  "number": 12,
+  "rating": "3.50"
+ },
+ {
+  "word": "mi",
+  "number": 26,
+  "rating": "3.94"
+ },
+ {
+  "word": "mia",
+  "number": 7,
+  "rating": "4.00"
+ },
+ {
+  "word": "mike's",
+  "number": 12,
+  "rating": "3.63"
+ },
+ {
+  "word": "mill",
+  "number": 8,
+  "rating": "4.19"
+ },
+ {
+  "word": "modern",
+  "number": 8,
+  "rating": "4.25"
+ },
+ {
+  "word": "moe's",
+  "number": 10,
+  "rating": "4.25"
+ },
+ {
+  "word": "moon",
+  "number": 17,
+  "rating": "4.06"
+ },
+ {
+  "word": "more",
+  "number": 7,
+  "rating": "4.50"
+ },
+ {
+  "word": "mr",
+  "number": 21,
+  "rating": "4.02"
+ },
+ {
+  "word": "mr.",
+  "number": 7,
+  "rating": "4.21"
+ },
+ {
+  "word": "my",
+  "number": 17,
+  "rating": "3.97"
+ },
+ {
+  "word": "natural",
+  "number": 11,
+  "rating": "3.09"
+ },
+ {
+  "word": "neighborhood",
+  "number": 7,
+  "rating": "3.43"
+ },
+ {
+  "word": "new",
+  "number": 49,
+  "rating": "3.57"
+ },
+ {
+  "word": "nick's",
+  "number": 9,
+  "rating": "3.78"
+ },
+ {
+  "word": "no",
+  "number": 12,
+  "rating": "3.54"
+ },
+ {
+  "word": "noodle",
+  "number": 35,
+  "rating": "3.46"
+ },
+ {
+  "word": "noodles",
+  "number": 17,
+  "rating": "3.59"
+ },
+ {
+  "word": "north",
+  "number": 19,
+  "rating": "3.39"
+ },
+ {
+  "word": "not",
+  "number": 10,
+  "rating": "3.80"
+ },
+ {
+  "word": "n",
+  "number": 19,
+  "rating": "3.79"
+ },
+ {
+  "word": "of",
+  "number": 115,
+  "rating": "3.97"
+ },
+ {
+  "word": "old",
+  "number": 32,
+  "rating": "4.28"
+ },
+ {
+  "word": "olde",
+  "number": 7,
+  "rating": "3.71"
+ },
+ {
+  "word": "olive",
+  "number": 20,
+  "rating": "4.08"
+ },
+ {
+  "word": "on",
+  "number": 77,
+  "rating": "3.82"
+ },
+ {
+  "word": "one",
+  "number": 22,
+  "rating": "4.14"
+ },
+ {
+  "word": "original",
+  "number": 22,
+  "rating": "3.73"
+ },
+ {
+  "word": "osaka",
+  "number": 7,
+  "rating": "4.29"
+ },
+ {
+  "word": "out",
+  "number": 13,
+  "rating": "4.12"
+ },
+ {
+  "word": "outback",
+  "number": 11,
+  "rating": "4.09"
+ },
+ {
+  "word": "oven",
+  "number": 12,
+  "rating": "3.71"
+ },
+ {
+  "word": "oyster",
+  "number": 10,
+  "rating": "4.30"
+ },
+ {
+  "word": "palace",
+  "number": 28,
+  "rating": "4.20"
+ },
+ {
+  "word": "pancake",
+  "number": 12,
+  "rating": "4.13"
+ },
+ {
+  "word": "panda",
+  "number": 10,
+  "rating": "3.20"
+ },
+ {
+  "word": "panera",
+  "number": 34,
+  "rating": "3.97"
+ },
+ {
+  "word": "papa",
+  "number": 10,
+  "rating": "3.90"
+ },
+ {
+  "word": "pasta",
+  "number": 40,
+  "rating": "3.83"
+ },
+ {
+  "word": "pastries",
+  "number": 7,
+  "rating": "4.64"
+ },
+ {
+  "word": "pastry",
+  "number": 11,
+  "rating": "4.18"
+ },
+ {
+  "word": "patisserie",
+  "number": 19,
+  "rating": "4.08"
+ },
+ {
+  "word": "paul",
+  "number": 9,
+  "rating": "4.11"
+ },
+ {
+  "word": "pearl",
+  "number": 9,
+  "rating": "4.39"
+ },
+ {
+  "word": "pho",
+  "number": 90,
+  "rating": "4.09"
+ },
+ {
+  "word": "phoenix",
+  "number": 7,
+  "rating": "3.79"
+ },
+ {
+  "word": "pickle",
+  "number": 9,
+  "rating": "4.56"
+ },
+ {
+  "word": "pie",
+  "number": 13,
+  "rating": "3.42"
+ },
+ {
+  "word": "pig",
+  "number": 12,
+  "rating": "4.17"
+ },
+ {
+  "word": "pit",
+  "number": 9,
+  "rating": "3.72"
+ },
+ {
+  "word": "pita",
+  "number": 12,
+  "rating": "4.00"
+ },
+ {
+  "word": "pizza",
+  "number": 404,
+  "rating": "3.92"
+ },
+ {
+  "word": "pizzeria",
+  "number": 109,
+  "rating": "3.94"
+ },
+ {
+  "word": "place",
+  "number": 41,
+  "rating": "3.99"
+ },
+ {
+  "word": "plus",
+  "number": 11,
+  "rating": "3.68"
+ },
+ {
+  "word": "pollo",
+  "number": 14,
+  "rating": "3.64"
+ },
+ {
+  "word": "pot",
+  "number": 20,
+  "rating": "3.63"
+ },
+ {
+  "word": "priest",
+  "number": 7,
+  "rating": "3.00"
+ },
+ {
+  "word": "prime",
+  "number": 9,
+  "rating": "3.83"
+ },
+ {
+  "word": "pub",
+  "number": 115,
+  "rating": "3.93"
+ },
+ {
+  "word": "public",
+  "number": 21,
+  "rating": "3.33"
+ },
+ {
+  "word": "park",
+  "number": 25,
+  "rating": "4.28"
+ },
+ {
+  "word": "q",
+  "number": 12,
+  "rating": "3.54"
+ },
+ {
+  "word": "qdoba",
+  "number": 9,
+  "rating": "3.83"
+ },
+ {
+  "word": "queen",
+  "number": 24,
+  "rating": "3.73"
+ },
+ {
+  "word": "ramen",
+  "number": 43,
+  "rating": "3.94"
+ },
+ {
+  "word": "raw",
+  "number": 8,
+  "rating": "3.25"
+ },
+ {
+  "word": "real",
+  "number": 19,
+  "rating": "3.74"
+ },
+ {
+  "word": "red",
+  "number": 55,
+  "rating": "3.57"
+ },
+ {
+  "word": "restaurant",
+  "number": 948,
+  "rating": "3.58"
+ },
+ {
+  "word": "restaurante",
+  "number": 8,
+  "rating": "3.75"
+ },
+ {
+  "word": "restaurants",
+  "number": 18,
+  "rating": "3.28"
+ },
+ {
+  "word": "rib",
+  "number": 9,
+  "rating": "3.67"
+ },
+ {
+  "word": "ribs",
+  "number": 7,
+  "rating": "3.43"
+ },
+ {
+  "word": "rice",
+  "number": 7,
+  "rating": "3.21"
+ },
+ {
+  "word": "ristorante",
+  "number": 49,
+  "rating": "3.35"
+ },
+ {
+  "word": "river",
+  "number": 8,
+  "rating": "3.19"
+ },
+ {
+  "word": "roadhouse",
+  "number": 16,
+  "rating": "3.69"
+ },
+ {
+  "word": "roast",
+  "number": 32,
+  "rating": "3.69"
+ },
+ {
+  "word": "roasters",
+  "number": 9,
+  "rating": "4.00"
+ },
+ {
+  "word": "robin",
+  "number": 10,
+  "rating": "4.05"
+ },
+ {
+  "word": "rock",
+  "number": 12,
+  "rating": "3.25"
+ },
+ {
+  "word": "roll",
+  "number": 13,
+  "rating": "3.73"
+ },
+ {
+  "word": "room",
+  "number": 37,
+  "rating": "2.95"
+ },
+ {
+  "word": "rose",
+  "number": 10,
+  "rating": "3.35"
+ },
+ {
+  "word": "roti",
+  "number": 19,
+  "rating": "3.50"
+ },
+ {
+  "word": "rotisserie",
+  "number": 11,
+  "rating": "3.36"
+ },
+ {
+  "word": "royal",
+  "number": 18,
+  "rating": "2.92"
+ },
+ {
+  "word": "ruby",
+  "number": 8,
+  "rating": "3.81"
+ },
+ {
+  "word": "saigon",
+  "number": 14,
+  "rating": "4.00"
+ },
+ {
+  "word": "sake",
+  "number": 8,
+  "rating": "3.88"
+ },
+ {
+  "word": "salad",
+  "number": 9,
+  "rating": "3.17"
+ },
+ {
+  "word": "salads",
+  "number": 10,
+  "rating": "2.80"
+ },
+ {
+  "word": "saloon",
+  "number": 18,
+  "rating": "2.94"
+ },
+ {
+  "word": "san",
+  "number": 23,
+  "rating": "3.41"
+ },
+ {
+  "word": "sandwich",
+  "number": 26,
+  "rating": "3.50"
+ },
+ {
+  "word": "sandwiches",
+  "number": 17,
+  "rating": "3.82"
+ },
+ {
+  "word": "sausage",
+  "number": 9,
+  "rating": "2.94"
+ },
+ {
+  "word": "sea",
+  "number": 8,
+  "rating": "4.06"
+ },
+ {
+  "word": "seafood",
+  "number": 78,
+  "rating": "3.72"
+ },
+ {
+  "word": "seasons",
+  "number": 8,
+  "rating": "3.50"
+ },
+ {
+  "word": "seoul",
+  "number": 7,
+  "rating": "3.71"
+ },
+ {
+  "word": "shabu",
+  "number": 7,
+  "rating": "3.50"
+ },
+ {
+  "word": "shack",
+  "number": 25,
+  "rating": "3.50"
+ },
+ {
+  "word": "shake",
+  "number": 9,
+  "rating": "3.67"
+ },
+ {
+  "word": "shanghai",
+  "number": 7,
+  "rating": "3.50"
+ },
+ {
+  "word": "shawarma",
+  "number": 22,
+  "rating": "3.59"
+ },
+ {
+  "word": "shop",
+  "number": 75,
+  "rating": "3.37"
+ },
+ {
+  "word": "shoppe",
+  "number": 11,
+  "rating": "3.32"
+ },
+ {
+  "word": "showmars",
+  "number": 7,
+  "rating": "3.21"
+ },
+ {
+  "word": "side",
+  "number": 9,
+  "rating": "3.94"
+ },
+ {
+  "word": "simply",
+  "number": 8,
+  "rating": "3.75"
+ },
+ {
+  "word": "sky",
+  "number": 18,
+  "rating": "3.64"
+ },
+ {
+  "word": "smashburger",
+  "number": 12,
+  "rating": "3.83"
+ },
+ {
+  "word": "smoke",
+  "number": 11,
+  "rating": "3.00"
+ },
+ {
+  "word": "smokehouse",
+  "number": 13,
+  "rating": "3.88"
+ },
+ {
+  "word": "social",
+  "number": 12,
+  "rating": "3.42"
+ },
+ {
+  "word": "sol",
+  "number": 7,
+  "rating": "3.79"
+ },
+ {
+  "word": "soul",
+  "number": 10,
+  "rating": "3.30"
+ },
+ {
+  "word": "soups",
+  "number": 7,
+  "rating": "3.21"
+ },
+ {
+  "word": "south",
+  "number": 19,
+  "rating": "3.13"
+ },
+ {
+  "word": "southern",
+  "number": 11,
+  "rating": "3.50"
+ },
+ {
+  "word": "spice",
+  "number": 9,
+  "rating": "2.89"
+ },
+ {
+  "word": "spicy",
+  "number": 7,
+  "rating": "3.50"
+ },
+ {
+  "word": "spoon",
+  "number": 13,
+  "rating": "3.62"
+ },
+ {
+  "word": "sports",
+  "number": 42,
+  "rating": "3.38"
+ },
+ {
+  "word": "spot",
+  "number": 8,
+  "rating": "3.06"
+ },
+ {
+  "word": "square",
+  "number": 20,
+  "rating": "3.27"
+ },
+ {
+  "word": "st",
+  "number": 17,
+  "rating": "3.35"
+ },
+ {
+  "word": "st.",
+  "number": 19,
+  "rating": "3.55"
+ },
+ {
+  "word": "star",
+  "number": 34,
+  "rating": "3.07"
+ },
+ {
+  "word": "starbucks",
+  "number": 34,
+  "rating": "3.26"
+ },
+ {
+  "word": "station",
+  "number": 17,
+  "rating": "3.62"
+ },
+ {
+  "word": "steak",
+  "number": 40,
+  "rating": "3.10"
+ },
+ {
+  "word": "steakhouse",
+  "number": 72,
+  "rating": "3.30"
+ },
+ {
+  "word": "steaks",
+  "number": 9,
+  "rating": "3.00"
+ },
+ {
+  "word": "steve's",
+  "number": 7,
+  "rating": "3.50"
+ },
+ {
+  "word": "stone",
+  "number": 11,
+  "rating": "3.95"
+ },
+ {
+  "word": "store",
+  "number": 19,
+  "rating": "3.92"
+ },
+ {
+  "word": "street",
+  "number": 53,
+  "rating": "3.67"
+ },
+ {
+  "word": "style",
+  "number": 15,
+  "rating": "3.77"
+ },
+ {
+  "word": "sub",
+  "number": 16,
+  "rating": "3.91"
+ },
+ {
+  "word": "subs",
+  "number": 40,
+  "rating": "3.79"
+ },
+ {
+  "word": "sugar",
+  "number": 10,
+  "rating": "3.40"
+ },
+ {
+  "word": "sum",
+  "number": 9,
+  "rating": "3.39"
+ },
+ {
+  "word": "sunrise",
+  "number": 8,
+  "rating": "3.19"
+ },
+ {
+  "word": "sunset",
+  "number": 7,
+  "rating": "3.21"
+ },
+ {
+  "word": "super",
+  "number": 13,
+  "rating": "3.12"
+ },
+ {
+  "word": "supercenter",
+  "number": 7,
+  "rating": "4.07"
+ },
+ {
+  "word": "sushi",
+  "number": 277,
+  "rating": "3.24"
+ },
+ {
+  "word": "sweet",
+  "number": 27,
+  "rating": "3.11"
+ },
+ {
+  "word": "sweets",
+  "number": 9,
+  "rating": "2.78"
+ },
+ {
+  "word": "szechuan",
+  "number": 7,
+  "rating": "3.29"
+ },
+ {
+  "word": "t",
+  "number": 8,
+  "rating": "3.44"
+ },
+ {
+  "word": "t.g.i.",
+  "number": 7,
+  "rating": "2.50"
+ },
+ {
+  "word": "table",
+  "number": 15,
+  "rating": "3.03"
+ },
+ {
+  "word": "taco",
+  "number": 57,
+  "rating": "3.75"
+ },
+ {
+  "word": "tacos",
+  "number": 35,
+  "rating": "3.61"
+ },
+ {
+  "word": "taipei",
+  "number": 7,
+  "rating": "2.14"
+ },
+ {
+  "word": "take-out",
+  "number": 7,
+  "rating": "3.14"
+ },
+ {
+  "word": "tap",
+  "number": 12,
+  "rating": "3.17"
+ },
+ {
+  "word": "tapas",
+  "number": 7,
+  "rating": "3.79"
+ },
+ {
+  "word": "taqueria",
+  "number": 26,
+  "rating": "3.75"
+ },
+ {
+  "word": "taste",
+  "number": 42,
+  "rating": "3.60"
+ },
+ {
+  "word": "tasty",
+  "number": 13,
+  "rating": "4.04"
+ },
+ {
+  "word": "tavern",
+  "number": 81,
+  "rating": "4.12"
+ },
+ {
+  "word": "taverna",
+  "number": 7,
+  "rating": "4.00"
+ },
+ {
+  "word": "tea",
+  "number": 38,
+  "rating": "4.03"
+ },
+ {
+  "word": "teriyaki",
+  "number": 22,
+  "rating": "3.73"
+ },
+ {
+  "word": "texas",
+  "number": 17,
+  "rating": "4.03"
+ },
+ {
+  "word": "tgi",
+  "number": 10,
+  "rating": "3.80"
+ },
+ {
+  "word": "thai",
+  "number": 187,
+  "rating": "3.76"
+ },
+ {
+  "word": "the",
+  "number": 728,
+  "rating": "3.68"
+ },
+ {
+  "word": "three",
+  "number": 12,
+  "rating": "3.17"
+ },
+ {
+  "word": "tijuana",
+  "number": 11,
+  "rating": "3.32"
+ },
+ {
+  "word": "time",
+  "number": 17,
+  "rating": "3.35"
+ },
+ {
+  "word": "tin",
+  "number": 10,
+  "rating": "3.00"
+ },
+ {
+  "word": "to",
+  "number": 14,
+  "rating": "3.71"
+ },
+ {
+  "word": "tofu",
+  "number": 13,
+  "rating": "3.38"
+ },
+ {
+  "word": "tokyo",
+  "number": 27,
+  "rating": "3.65"
+ },
+ {
+  "word": "tony's",
+  "number": 9,
+  "rating": "4.11"
+ },
+ {
+  "word": "toronto",
+  "number": 9,
+  "rating": "3.89"
+ },
+ {
+  "word": "town",
+  "number": 11,
+  "rating": "3.36"
+ },
+ {
+  "word": "trader",
+  "number": 8,
+  "rating": "3.75"
+ },
+ {
+  "word": "trattoria",
+  "number": 29,
+  "rating": "3.53"
+ },
+ {
+  "word": "tree",
+  "number": 16,
+  "rating": "4.16"
+ },
+ {
+  "word": "tropical",
+  "number": 10,
+  "rating": "3.90"
+ },
+ {
+  "word": "truck",
+  "number": 15,
+  "rating": "3.53"
+ },
+ {
+  "word": "tuesday",
+  "number": 7,
+  "rating": "2.64"
+ },
+ {
+  "word": "two",
+  "number": 7,
+  "rating": "3.79"
+ },
+ {
+  "word": "uncle",
+  "number": 15,
+  "rating": "3.70"
+ },
+ {
+  "word": "union",
+  "number": 8,
+  "rating": "4.00"
+ },
+ {
+  "word": "up",
+  "number": 9,
+  "rating": "3.33"
+ },
+ {
+  "word": "urban",
+  "number": 18,
+  "rating": "3.44"
+ },
+ {
+  "word": "valley",
+  "number": 7,
+  "rating": "3.36"
+ },
+ {
+  "word": "vegan",
+  "number": 9,
+  "rating": "3.83"
+ },
+ {
+  "word": "vegetarian",
+  "number": 16,
+  "rating": "3.72"
+ },
+ {
+  "word": "viet",
+  "number": 10,
+  "rating": "3.00"
+ },
+ {
+  "word": "vietnamese",
+  "number": 22,
+  "rating": "3.50"
+ },
+ {
+  "word": "villa",
+  "number": 8,
+  "rating": "3.25"
+ },
+ {
+  "word": "village",
+  "number": 33,
+  "rating": "3.38"
+ },
+ {
+  "word": "waffle",
+  "number": 11,
+  "rating": "3.77"
+ },
+ {
+  "word": "walmart",
+  "number": 9,
+  "rating": "3.28"
+ },
+ {
+  "word": "water",
+  "number": 7,
+  "rating": "3.57"
+ },
+ {
+  "word": "west",
+  "number": 12,
+  "rating": "3.67"
+ },
+ {
+  "word": "weston",
+  "number": 7,
+  "rating": "3.86"
+ },
+ {
+  "word": "which",
+  "number": 7,
+  "rating": "2.93"
+ },
+ {
+  "word": "whiskey",
+  "number": 8,
+  "rating": "3.50"
+ },
+ {
+  "word": "white",
+  "number": 9,
+  "rating": "4.00"
+ },
+ {
+  "word": "whole",
+  "number": 10,
+  "rating": "3.25"
+ },
+ {
+  "word": "wich",
+  "number": 7,
+  "rating": "2.86"
+ },
+ {
+  "word": "wild",
+  "number": 33,
+  "rating": "3.71"
+ },
+ {
+  "word": "wine",
+  "number": 49,
+  "rating": "3.41"
+ },
+ {
+  "word": "wing",
+  "number": 17,
+  "rating": "3.44"
+ },
+ {
+  "word": "wings",
+  "number": 51,
+  "rating": "3.73"
+ },
+ {
+  "word": "wok",
+  "number": 20,
+  "rating": "3.35"
+ },
+ {
+  "word": "wood",
+  "number": 16,
+  "rating": "3.53"
+ },
+ {
+  "word": "world",
+  "number": 14,
+  "rating": "3.61"
+ },
+ {
+  "word": "y",
+  "number": 11,
+  "rating": "3.82"
+ },
+ {
+  "word": "yogurt",
+  "number": 10,
+  "rating": "4.00"
+ },
+ {
+  "word": "yonge",
+  "number": 9,
+  "rating": "3.89"
+ },
+ {
+  "word": "york",
+  "number": 20,
+  "rating": "3.55"
+ },
+ {
+  "word": "yummy",
+  "number": 8,
+  "rating": "3.88"
+ }
+]
