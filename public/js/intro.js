@@ -43,8 +43,7 @@ var material = new THREE.LineBasicMaterial({
     color: 0xFFE500
 });
 
-container = document.createElement('div');
-document.body.appendChild(container);
+container = document.querySelector(".node-box");
 var info = document.querySelector('.info');
 
 var INTERSECTED;

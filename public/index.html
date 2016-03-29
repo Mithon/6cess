@@ -40,12 +40,12 @@
             <header>
                 <img class="top-icon" src="img/6cess-icon.svg"/>
                 <nav>
-                    <a id="tab1" class="tab active-tab" href="#">Name</a>
-                    <a id="tab2" class="tab" href="#">Location</a>
-                    <a id="tab3" class="tab" href="#">Explore</a>
+                    <a id="tab0" data-tab="0" class="tab active-tab" href="#">Name</a>
+                    <a id="tab1" data-tab="1" class="tab" href="#">Location</a>
+                    <a id="tab2" data-tab="2" class="tab" href="#">Explore</a>
                 </nav>
             </header>
-            <section class="panel name">
+            <section id="panel0" class="panel name panel-current">
 
                 <div class="word-plot">
                 </div>
@@ -55,14 +55,54 @@
                         <p>city: toronto</p>
                     </div>
                     <h2>The Search for the <strong>Perfect Name</strong></h2>
+                    <div class="heading-text">
+                        <p class="pull-quote">Hey did you hear about that new place? The one on king? Something to do with bread or something I think.</p>
+                        <p class="intro-p">A name is one of the most important parts of a successful restaurant, and creating and effective one is no easy task. But what if you could see what words correspond with the highest Yelp scores? You’re in the right place.</p>
+                    </div>
                 </div>
 
+            </section>
 
+            <section id="panel1" class="panel location">
+
+                <div class="heading">
+                    <div class="head-border">
+                        <p>city: toronto</p>
+                    </div>
+                    <h2>Locating</br><strong>6cess</strong></h2>
+                    <div class="heading-text stacked">
+                        <p class="pull-quote stacked">Location is (almost) everything.</p>
+                        <p class="intro-p stacked">The factors for choosing a location seem nearly endless, yet some of them can make a huge difference. Here are some of the factors that data can help make easier.</p>
+                    </div>
+                </div>
+
+                <div class="map-diagram">
+                </div>
+
+            </section>
+
+            <section id="panel2" class="panel explore">
+
+                <div class="heading">
+                    <div class="head-border">
+                        <p>city: toronto</p>
+                    </div>
+                    <h2>Yelp:</br><strong>Visualized</strong></h2>
+                    <div class="heading-text stacked">
+                        <p class="pull-quote stacked"></p>
+                        <p class="intro-p stacked"></p>
+                    </div>
+                </div>
+
+                <div class="map-diagram">
+                </div>
 
             </section>
         </main>
+        <div class="node-box">
+        </div>
         <script src="js/d3.min.js"></script>
-        <script src="js/d3tip.js"></script>
+        <script src="js/d3-tip.min.js"></script>
         <script src="js/topojson.v1.min.js"></script>
         <script src="js/three.min.js"></script>
 
@@ -70,7 +110,7 @@
         <script src="js/CanvasRenderer.js"></script>
         <script src="js/classie.js"></script>
         <script src="js/main.js"></script>
-        <script src="js/intro.js"></script>
+        <!--<script src="js/intro.js"></script>-->
 
     </body>
 </html>

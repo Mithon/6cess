@@ -1,22 +1,23 @@
 @font-face {
-    font-family: 'Dodeca';
+    font-family: 'DodecaBold';
     src:    url("dodeca_bold_basic-webfont.woff2") format('woff2'),
             url("dodeca_bold_basic-webfont.woff") format('woff');
-            font-weight: bold;
+    font-weight: bold;
 }
 
 @font-face {
-    font-family: 'Dodeca';
+    font-family: 'DodecaLight';
     src:    url("dodeca_light_basic-webfont.woff2") format('woff2'),
             url("dodeca_light_basic-webfont.woff") format('woff');
-            font-weight: lighter;
+    font-weight: lighter;
 }
 
 @font-face {
     font-family: 'Dodeca';
     src:    url("dodeca_reg_basic-webfont.woff2") format('woff2'),
             url("dodeca_reg_basic-webfont.woff") format('woff');
-            font-weight: normal;
+    font-weight: normal;
+    font-style: normal;
 }
 
 @font-face {
@@ -42,6 +43,12 @@ body {
     overflow-x: hidden;
 }
 
+.node-box {
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
 .no-scroll {
     overflow: hidden;
 }
@@ -58,6 +65,7 @@ body {
 }
 
 h1 {
+    font-family: 'DodecaBold';
     font-size: 3rem;
     text-transform: uppercase;
     margin-bottom: 0px;
@@ -111,6 +119,7 @@ h4 {
     width: 100%;
     margin-top: 25px;
     border-radius: none;
+    font-family: 'DodecaBold';
     border: 1px solid white;
     outline: none;
     padding: 10px;
@@ -132,41 +141,6 @@ h4 {
     background-color: #273742;
 }
 
-/* SVG STUFF
-
-.svg-box {
-    position: fixed;
-    width: 100%;
-    height: 100%;
-    z-index: 0;
-    display: -webkit-flex;
-      display:         flex;
-      -webkit-align-items: center;
-              align-items: center;
-      -webkit-justify-content: center;
-              justify-content: center;
-}
-
-.map-svg {
-    width: 100%;
-    height: 100%;
-    z-index: 0;
-    transform: rotate(-38deg);
-    transform-origin: center;
-}
-
-.canton {
-  fill: #bbb;
-}
-
-.canton-boundary {
-  fill: none;
-  stroke: #fff;
-  stroke-linejoin: round;
-}
-
-*/
-
 .info {
     position: absolute;
     z-index: 2;
@@ -175,6 +149,7 @@ h4 {
 }
 
 .info h3 {
+    font-family: 'DodecaBold';
     font-size: 1.2rem;
     margin-bottom: 0;
 }
@@ -189,12 +164,14 @@ h4 {
 /* Main Styles */
 
 main {
+    position: relative;
     top: 0;
     left: 0;
     z-index: 10;
     width: 100%;
     height: 100%;
-    position: absolute;
+    perspective: 1200px;
+	transform-style: preserve-3d;
 
     -webkit-transition: all ease-in-out 0.3s;
     -moz-transition: all ease-in-out 0.3s;
@@ -249,15 +226,29 @@ nav {
     width: 100%;
     height: 1200px;
     padding: 40px 5%;
+
+	position: absolute;
+	top: 0;
+	left: 0;
+	visibility: hidden;
+	overflow: hidden;
+	backface-visibility: hidden;
+	transform: translate3d(0, 0, 0);
+}
+
+.panel-current {
+	visibility: visible;
+    position: relative;
+    overflow-y: auto;
 }
 
 .heading {
-    height: 170px;
+    max-width: 800px;
 }
 
 .heading h2 {
     margin: 20px 10px;
-    font-weight: lighter;
+    font-family: 'DodecaLight';
     font-size: 4.5rem;
     text-transform: uppercase;
     max-width: 750px;
@@ -265,11 +256,15 @@ nav {
     display: inline-block;
 }
 
+strong {
+    font-family: 'DodecaBold';
+}
+
 .head-border {
+    height: 170px;
     width: 20px;
     display: inline-block;
     border-right: 1px solid white;
-    height: 100%;
     vertical-align: top;
 }
 
@@ -284,6 +279,45 @@ nav {
 
 .heading.explore {
     height: 120px;
+}
+
+.heading-text {
+    margin-top: 10px;
+    width: 100%;
+    margin-left: 40px;
+    display: flex;
+    align-items: flex-start;
+}
+
+.pull-quote {
+    flex: 2;
+    font-size: 1.2rem;
+    line-height: 1.4;
+    margin: 0;
+    font-family: 'DodecaLight';
+}
+
+.intro-p {
+    margin: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+    flex: 4;
+    line-height: 1.4;
+    font-family: 'Avenir';
+    vertical-align: top;
+    display: inline-block;
+}
+
+.stacked {
+    flex: none;
+    display: block;
+
+}
+
+.intro-p.stacked {
+    padding-left: 0;
+    padding-top: 10px;
+    max-width: 450px;
 }
 
 /* WORD PLOT STUFF */
@@ -336,7 +370,90 @@ nav {
     transition: all ease-in-out 0.05s;
 }
 
-.tip {
+.d3-tip {
+    position: relative;
     z-index: 100;
-    background: white;
+    background: #19232C;
+    padding: 10px;
+    opacity: 0.2;
+    border-radius: 3px;
+}
+
+.d3-tip::after {
+    top: 100%;
+	left: 50%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+	border-color: rgba(136, 183, 213, 0);
+	border-top-color:  #19232C;
+	border-width: 10px;
+	margin-left: -10px;
+}
+
+.d3-tip h4 {
+    font-family: 'DodecaBold';
+    margin: 0;
+    text-transform: capitalize;
+    font-size: 1.2rem;
+}
+
+.d3-tip span {
+    font-size: 0.8rem;
+    font-family: 'Roboto Mono';
+}
+
+
+
+/* MAP STUFF */
+
+.map-diagram {
+    width: 100%;
+    padding-left: 5%;
+    z-index: 0;
+    position: relative;
+    /*
+    transform: rotate(-38deg);
+    */
+    transform-origin: center;
+}
+
+.toronto-map {
+    width: 85vw;
+    height: 850px;
+    margin-top: -90px;
+}
+
+.hood {
+  fill: #19232C;
+
+  stroke-linejoin: round;
+}
+
+.hood:hover {
+    fill: #00FFEA;
+}
+
+.hood-boundary {
+  fill: none;
+  stroke: white;
+  opacity: 0.2;
+  stroke-linejoin: round;
+}
+
+
+/*
+    Dark Grey: #19232C
+    Light Grey: #273742
+    Yellow: #FFE500
+    Teal: #00FFEA
+*/
+
+@media screen and (max-width: 1350px) {
+    .toronto-map {
+        margin-top: -180px;
+    }
 }
