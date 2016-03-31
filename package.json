@@ -8,6 +8,7 @@
   "author": "Hunter Caron",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.13.4"
+    "express": "^4.13.4",
+    "yelp": "^1.0.1"
   }
 }

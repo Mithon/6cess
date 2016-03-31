@@ -11,6 +11,8 @@ var hoodData;
 var activeParam = 'population';
 var paramScales;
 var compareHoods = [];
+var CALL_COUNT = 5;
+var SAVE_FILE = 0;
 
 explore.addEventListener("click", toggleMain);
 topIcon.addEventListener("click", toggleMain);
@@ -72,7 +74,6 @@ function makeTransition(tab) {
         currentTab = tabs[tab.dataset.tab];
     }
 }
-
 function toggleMain() {
     classie.toggle(main, "hide-main");
     classie.toggle(body, "no-scroll");
@@ -85,6 +86,39 @@ function toggleMain() {
 
     mainOpen = !mainOpen;
 }
+
+//YELP EXPLORE STUFF
+
+function grabYelpData(loc, offset) {
+    return new Promise(function(resolve, reject){
+        var url = `http://localhost/yelp?location=${loc}&offset=${offset}&callCount=${CALL_COUNT}&saveFile=${SAVE_FILE}`;
+        var request = new XMLHttpRequest();
+        console.log("Making request to: " + url);
+        request.open('GET', url, true);
+        request.onload = function() {
+            resolve(JSON.parse(request.response));
+        }
+        request.onerror = function() {
+            reject(new Error("Error on data fetch"));
+        }
+        request.send();
+    });
+}
+
+function enterLocation() {
+    var loc = document.getElementById('loc-field').value;
+
+    grabYelpData(loc, 0)
+        .then(function(data) {parseData(data)})
+        .catch(function(err) {
+            console.log(err);
+        });
+}
+
+function parseData(data) {
+
+}
+
 
 // D3 STUFF
 
@@ -499,7 +533,7 @@ function changeMap(param) {
     changeTip(param);
 }
 
-//makeTransition(tabs[1]);
+//makeTransition(tabs[2]);
 
 
 
@@ -603,6 +637,7 @@ function init() {
         particle.position.z = (yelp[busi].rating - avgRate) * 100;
         particle.scale.x = particle.scale.y = Math.sqrt(yelp[busi].review_count/30)+0.2;
         particle.userData = yelp[busi];
+
         if (yelp[busi].review_count > 80)
             scene.add(particle);
     }

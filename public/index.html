@@ -216,15 +216,19 @@
 
             <section id="panel2" class="panel explore">
 
-                <div class="heading">
-                    <div class="head-border">
-                        <p>city: toronto</p>
-                    </div>
-                    <h2>Yelp:</br><strong>Visualized</strong></h2>
-                    <div class="heading-text stacked">
-                        <p class="pull-quote stacked"></p>
-                        <p class="intro-p stacked"></p>
-                    </div>
+                <div class="heading explore-heading">
+                    <div class="corner top-left"></div>
+                    <div class="corner top-right"></div>
+                    <div class="corner bottom-left"></div>
+                    <div class="corner bottom-right"></div>
+
+                    <h2>Yelp:<strong>Explorer</strong></h2>
+
+                </div>
+
+                <div class="input-box">
+                    <input autofocus="autofocus" placeholder="Enter a Location" type="text" name="location" id="loc-field" onkeydown = "if (event.keyCode == 13) enterLocation()" ></input>
+                    <button onclick="enterLocation()">GO_</button>
                 </div>
 
                 <div class="map-diagram">

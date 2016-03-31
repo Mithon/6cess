@@ -224,6 +224,7 @@ nav {
 .panel {
     background-color: #273742;
     min-height: 1000px;
+    box-sizing: border-box;
     width: 100%;
     padding: 40px 5% 180px 5%;
 
@@ -716,6 +717,63 @@ select {
     font-family: 'Avenir';
     text-align: left;
     font-size: 1rem;
+}
+
+
+/* EXPLORE PAGE STYLES */
+
+.input-box {
+    width: 60%;
+    margin: auto;
+    height: 85px;
+    vertical-align: top;
+}
+
+.input-box input {
+    font-family: "DodecaLight";
+    outline: none;
+    background-color:#273742;
+    padding: 20px;
+    margin-right: 20px;
+    padding-bottom: 5px;
+    font-size: 2.3em;
+    color: white;
+    width: 72%;
+    border: none;
+    border-bottom: 2px solid white;
+    box-sizing: border-box;
+    display: inline-block;
+
+}
+
+.input-box button {
+    vertical-align: bottom;
+    font-size: 1.2em;
+    font-family: "DodecaBold";
+    box-sizing: border-box;
+    outline: none;
+    border: 2px solid white;
+    height: 70%;
+    width: 23%;
+    background-color: #273742;
+    color: white;
+    display: inline-block;
+}
+
+
+.input-box button:hover {
+    background-color: #273742;
+}
+
+.input-box button:active {
+    background-color: white;
+    color: #19232C;
+}
+
+.explore-heading {
+    margin: 100px auto 80px auto;
+    position: relative;
+    text-align: center;
 }
 
 
