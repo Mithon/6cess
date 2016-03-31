@@ -13,6 +13,9 @@ var paramScales;
 var compareHoods = [];
 var CALL_COUNT = 5;
 var SAVE_FILE = 0;
+var exploreData = document.querySelector(".explorer-data");
+var exploreInfo = document.querySelector(".explorer-data-info");
+var loc;
 
 explore.addEventListener("click", toggleMain);
 topIcon.addEventListener("click", toggleMain);
@@ -91,7 +94,7 @@ function toggleMain() {
 
 function grabYelpData(loc, offset) {
     return new Promise(function(resolve, reject){
-        var url = `http://localhost/yelp?location=${loc}&offset=${offset}&callCount=${CALL_COUNT}&saveFile=${SAVE_FILE}`;
+        var url = `http://6cess.ca/yelp?location=${loc}&offset=${offset}&callCount=${CALL_COUNT}&saveFile=${SAVE_FILE}`;
         var request = new XMLHttpRequest();
         console.log("Making request to: " + url);
         request.open('GET', url, true);
@@ -106,7 +109,7 @@ function grabYelpData(loc, offset) {
 }
 
 function enterLocation() {
-    var loc = document.getElementById('loc-field').value;
+    loc = document.getElementById('loc-field').value;
 
     grabYelpData(loc, 0)
         .then(function(data) {parseData(data)})
@@ -116,6 +119,20 @@ function enterLocation() {
 }
 
 function parseData(data) {
+    console.log(data);
+    exploreData.innerHTML = `<div class="word-title">
+        <h4>Location</h4>
+        <h3 class="explore-title">${loc}</h3>
+    </div>`;
+    exploreInfo.innerHTML = " ";
+    //
+    var eRatings = [];
+    var eRCounts = [];
+    for (var busi of data.businesses) {
+        eRatings.push(busi.rating);
+        eRCounts.push(busi.review_count);
+    }
+    exploreInfo.innerHTML +=  `<h4><span>Average Rating:</span> ${d3.mean(eRatings)}</h4><h4><span>Average Review Count:</span> ${d3.mean(eRCounts)}</h4>`;
 
 }
 

@@ -776,6 +776,16 @@ select {
     text-align: center;
 }
 
+.explorer-data {
+    display: inline-block;
+    margin: 20px auto;
+    width: 400px;
+    margin-left: 30%;
+}
+
+.explorer-data-info {
+    margin-left: 30%;
+}
 
 /*
     Dark Grey: #19232C
