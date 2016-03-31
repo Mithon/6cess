@@ -223,15 +223,16 @@ nav {
 
 .panel {
     background-color: #273742;
-    min-height: 2000px;
+    min-height: 1000px;
     width: 100%;
-    padding: 40px 5%;
+    padding: 40px 5% 180px 5%;
 
 	position: absolute;
 	top: 0;
 	left: 0;
 	visibility: hidden;
 	overflow: hidden;
+    height: 0;
 	backface-visibility: hidden;
 	transform: translate3d(0, 0, 0);
 }
@@ -622,12 +623,37 @@ strong {
   transition: all ease-in-out 1s;
 }
 
-select {
-    color: #19232C;
-    font-family: 'Roboto Mono';
+.select-box {
+    border: 1px solid white;
+    padding: 10px 15px;
     position: absolute;
-    bottom: 120px;
-    right: 18%;
+    bottom: 140px;
+    right: 16%;
+}
+
+.select-box h3 {
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    margin-left: 5px;
+    margin-top: 0;
+    margin-bottom: 5px;;
+}
+
+select {
+    position: relative;
+    color: white;
+    border-radius: 0;
+    border: none;
+    padding: 5px 10px;
+    font-family: 'Avenir';
+    border-right: 2px solid #00FFEA;
+
+    outline: none;
+    background-color: #19232C;
+    -webkit-appearance: none;
+   -moz-appearance: none;
+   appearance: none;
+
 }
 
 .hood:hover, .active-hood {
@@ -649,15 +675,24 @@ select {
 /* LOCATION INFO STYLING */
 
 .map-selections {
-    width: 60%;
+    width: 80%;
     margin: auto;
     margin-top: 30px;
 }
 
 .map-selected {
+    padding: 30px 25px;
+    position: relative;
     max-width: 320px;
     display: inline-block;
     vertical-align: top;
+}
+
+.selected-number {
+    position: absolute;
+    font-family: 'Roboto Mono';
+    top: 0px;
+    right: 1px;
 }
 
 .map-selected.word-title {
