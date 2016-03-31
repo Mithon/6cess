@@ -39,7 +39,7 @@
 body {
     background-color: #19232C;
     color: white;
-    font-family: "Dodeca";
+    font-family: "DodecaBold";
     overflow-x: hidden;
 }
 
@@ -169,7 +169,7 @@ main {
     left: 0;
     z-index: 10;
     width: 100%;
-    height: 100%;
+    min-height: 100vh;
     perspective: 1200px;
 	transform-style: preserve-3d;
 
@@ -179,7 +179,7 @@ main {
 }
 
 .hide-main {
-    transform: translateY(1000px);
+    transform: translateY(100vh);
 
     -webkit-transition: all ease-in-out 0.3s;
     -moz-transition: all ease-in-out 0.3s;
@@ -223,8 +223,8 @@ nav {
 
 .panel {
     background-color: #273742;
+    min-height: 2000px;
     width: 100%;
-    height: 1200px;
     padding: 40px 5%;
 
 	position: absolute;
@@ -320,11 +320,196 @@ strong {
     max-width: 450px;
 }
 
+.paragraph {
+    margin-left: 40px;
+    max-width: 750px;
+}
+
+.paragraph h3 {
+    text-transform: uppercase;
+    font-family: "DodecaBold";
+    font-size: 3rem;
+    margin-top: 12px;
+    margin-bottom: 0;
+    line-height: 1;
+    margin-bottom: 18px;
+}
+
+.paragraph p {
+    margin-top: 6px;
+    max-width: 450px;
+    font-family: "Avenir";
+    line-height: 1.4;
+}
+
+.paragraph.compare {
+    max-width: 400px;
+    display: inline-block;
+    margin-right: 20px;
+    margin-top: 20px;
+    vertical-align: top;
+}
+
+.compare-box {
+    width: 50%;
+    display: inline-block;
+}
+
+.compare-word {
+    display: inline-block;
+    margin-left: 40px;
+    margin-right: 20px;
+    margin-bottom: 25px;
+}
+
+
+
+.compare-word h2 {
+    position: relative;
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+    font-size: 10rem;
+    margin-right: 15px;
+}
+
+.compare-word-segment {
+    display: inline-block;
+    margin-right: 6px;
+}
+
+.compare-word-segment div {
+    margin-top: -15px;
+}
+
+.compare-word-segment div h4 {
+    margin: 0;
+    font-size: 1.5rem;
+}
+
+.compare-word-segment div span {
+    opacity: 0.4;
+    font-size: 0.9rem;
+}
+
+.compare-word .compare-word-segment:last-child h2 {
+    opacity: 0.2;
+}
+
+.compare-word h2::after {
+    content: " ";
+    position: absolute;
+    background-color: white;
+    bottom: 25px;
+    left: 0;
+    height: 1px;
+    width: 100%;
+}
+
+
+.compare-word.cafe h2 {
+    font-size: 80px;
+    margin-bottom: 15px;
+}
+
+.compare-word.cafe h2::after {
+    bottom: 10px;
+
+}
+
+.accent::before {
+    content: " ";
+    position: absolute;
+    width: 15px;
+    right: 15px;
+    top: 18px;
+    height: 6px;
+    background-color: white;
+    transform: rotate(-22deg);
+
+}
+
+.compare-word.cafe .compare-word-segment h2 {
+    opacity: 0.4;
+}
+
+.compare-word.cafe .compare-word-segment:first-child h2 {
+    opacity: 1;
+}
+
+.compare-word.cafe .compare-word-segment:last-child h2 {
+    opacity: 0.1;
+}
+
+/* WORD GRAPH STUFF */
+
+.word-graph-box {
+    margin: 80px 0 80px 40px;
+}
+
+.word-graph {
+    display: inline-block;
+    margin-right: 40px;
+}
+
+.word-graph svg {
+    margin-top: 20px;
+    display: block;
+}
+
+.word-title {
+    display: inline-block;
+    border-bottom: 1px solid white;
+}
+
+.word-title h4 {
+    opacity: 0.5;
+    margin: 0;
+    font-size: 0.7rem;
+    text-transform: uppercase;
+}
+
+.word-title h3 {
+    margin: 0;
+    font-size: 1.6rem;
+    text-transform: uppercase;
+
+}
+
+.word-bars {
+    fill: white;
+}
+
+.word-bar-text {
+    text-transform: capitalize;
+    font-size: 0.9rem;
+
+    text-anchor: start;
+}
+
+.top-words .word-bars {
+    fill: #FFE500;
+}
+
+.most-words .word-bars {
+    fill: #00FFEA;
+}
+
+.bottom-words .word-bars {
+    fill: #19232C;
+}
+
+.bottom-words .word-bar-text {
+    fill: white;
+}
+
+
 /* WORD PLOT STUFF */
 
 .word-plot {
+    margin-top: 80px;
     z-index: 10;
-    margin-bottom: 20px;
+    margin-bottom: 0;
 }
 
 .word-circle {
@@ -428,13 +613,30 @@ strong {
 }
 
 .hood {
-  fill: #19232C;
+  fill: #00FFEA;
 
   stroke-linejoin: round;
+
+  -webkit-transition: all ease-in-out 1s;
+  -moz-transition: all ease-in-out 1s;
+  transition: all ease-in-out 1s;
 }
 
-.hood:hover {
-    fill: #00FFEA;
+select {
+    color: #19232C;
+    font-family: 'Roboto Mono';
+    position: absolute;
+    bottom: 120px;
+    right: 18%;
+}
+
+.hood:hover, .active-hood {
+    -webkit-transition: all ease-in-out 0.1s;
+    -moz-transition: all ease-in-out 0.1s;
+    transition: all ease-in-out 0.1s;
+    fill: #FFE500 !important;
+    opacity: 1 !important;
+    stroke-width: 6px;
 }
 
 .hood-boundary {
@@ -444,16 +646,43 @@ strong {
   stroke-linejoin: round;
 }
 
+/* LOCATION INFO STYLING */
+
+.map-selections {
+    width: 60%;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.map-selected {
+    max-width: 320px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.map-selected.word-title {
+    display: inline-block;
+
+}
+
+.map-selected:first-child {
+    margin-right: 60px;
+}
+
 
 /*
     Dark Grey: #19232C
     Light Grey: #273742
     Yellow: #FFE500
     Teal: #00FFEA
+
+.info, .intro-block, main {
+    display: none;
+}
 */
 
-@media screen and (max-width: 1350px) {
+@media screen and (max-width: 1250px) {
     .toronto-map {
-        margin-top: -180px;
+        margin-top: -200px;
     }
 }
