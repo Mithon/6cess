@@ -784,7 +784,8 @@ select {
 }
 
 .explorer-data-info {
-    margin-left: 30%;
+    margin-left: 35%;
+    margin-top: -40px;
 }
 
 /*
