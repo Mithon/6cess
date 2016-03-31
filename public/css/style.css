@@ -189,7 +189,7 @@ main {
 .top-icon {
     padding-top: 6px;
     padding-left: 10px;
-    padding-right: 100px;
+    padding-right: 200px;
 }
 
 header {
@@ -240,6 +240,7 @@ nav {
 .panel-current {
 	visibility: visible;
     position: relative;
+    height: auto;
     overflow-y: auto;
 }
 
@@ -352,7 +353,7 @@ strong {
 }
 
 .compare-box {
-    width: 50%;
+    width: 55%;
     display: inline-block;
 }
 
@@ -385,10 +386,12 @@ strong {
 
 .compare-word-segment div h4 {
     margin: 0;
+    font-family: 'DodecaBold';
     font-size: 1.5rem;
 }
 
 .compare-word-segment div span {
+    font-family: 'Avenir';
     opacity: 0.4;
     font-size: 0.9rem;
 }
@@ -697,11 +700,22 @@ select {
 
 .map-selected.word-title {
     display: inline-block;
-
 }
 
 .map-selected:first-child {
     margin-right: 60px;
+}
+
+.selected-info h4 {
+    margin: 10px 0;
+    font-family: 'DodecaBold';
+    font-size: 1.5rem;
+}
+
+.selected-info span {
+    font-family: 'Avenir';
+    text-align: left;
+    font-size: 1rem;
 }
 
 
